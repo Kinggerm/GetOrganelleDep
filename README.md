@@ -4,31 +4,33 @@ Binary files of [GetOrganelle v1.6.0+](https://github.com/Kinggerm/GetOrganelle)
 
 ## Installation
 
-No other compiling required. Just download this repository to GetOrganelle without changing the directory tree.  
+No other compiling required. Just download GetOrganelleDep to GetOrganelle without changing the directory tree. 
 
-    # Supposing you installed GetOrganelle at ~/Applications/bin
+    # Supposing you had GetOrganelle at ~/Applications/bin
     
     cd ~/Applications/bin/GetOrganelle
     
-    git clone git://github.com/Kinggerm/GetOrganelleDep
-
-Then follow the [installation instruction for GetOrganelle](https://github.com/Kinggerm/GetOrganelle#installation). You could delete or keep the sub-folder of another operation system, for example, `rm -r GetOrganelleDep/macOS` if your system is linux. 
+    # Supposing your system is linux, otherwise change the 'linux' into 'macOS'. To download and decompress GetOrganelleDep.
+    
+    curl -L https://github.com/Kinggerm/GetOrganelleDep/releases/download/v1.6.0/v1.6.0-linux.tar.gz | tar zx
 
 <b>Alternatively</b>, you could also finish above things for your linux system as:
 
-    # Supposing you installed GetOrganelle at ~/Applications/bin
+    cd ~/Applications/bin/GetOrganelle
     
-    # Supposing your system is linux, otherwise change the 'linux' into 'macOS'
+    git clone git://github.com/Kinggerm/GetOrganelleDep
     
-    cd ~/Applications/bin/GetOrganelle && mkdir GetOrganelleDep && cd GetOrganelleDep
+    # This is NOT required. To delete the sub-folder of another operation system. 
     
-    svn co https://github.com/Kinggerm/GetOrganelleDep/trunk/linux
+    rm -r GetOrganelleDep/macOS
+    
+Then follow the [installation instruction for GetOrganelle](https://github.com/Kinggerm/GetOrganelle#installation).
 
 GetOrganelle would not add those dependencies to the $PATH thereby not influence your own usage. For example, if you already installed SPAdes v3.6.2, after installing GetOrganelle the spades version for your system would still be v3.6.2 while only GetOrganelle uses its own [SPAdes version](https://github.com/Kinggerm/GetOrganelleDep/linux/SPAdes/share/spades/VERSION). So you might also remove any of the dependency folder if it was already available in your system and you would like GetOrganelle to use yours as well, although not suggested for compatibility consideration.
 
 ## Citation
 
-Please denote the version in your manuscript for reproducible science.
+Please denote the versions of GetOrganelle as well as the dependencies in your manuscript for reproducible science.
 
 GetOrganelle: Jian-Jun Jin*, Wen-Bin Yu*, Jun-Bo Yang, Yu Song, Ting-Shuang Yi, De-Zhu Li. 2018. GetOrganelle: an easy and fast toolkit for de novo assembly of accurate organelle genomes. bioRxiv, 256479. [http://doi.org/10.1101/256479](https://www.biorxiv.org/content/early/2018/03/14/256479)
 
