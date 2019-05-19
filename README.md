@@ -1,6 +1,6 @@
 # GetOrganelleDep
 
-Binary files of [GetOrganelle v1.6.0+](https://github.com/Kinggerm/GetOrganelle) dependencies.
+Binary files of [GetOrganelle v1.6.0+](https://github.com/Kinggerm/GetOrganelle) dependencies (SPAdes, Bowtie2, BLAST+).
 
 ## Installation
 
