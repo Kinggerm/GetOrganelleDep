@@ -21,7 +21,7 @@ No other compiling required. Just download GetOrganelleDep to GetOrganelle witho
     
     # Supposing your system is linux, otherwise change the 'linux' into 'macOS'. To download and decompress GetOrganelleDep.
     
-    curl -L https://github.com/Kinggerm/GetOrganelleDep/releases/download/v1.6.0/v1.6.0-linux.tar.gz | tar zx
+    curl -L https://github.com/Kinggerm/GetOrganelleDep/releases/download/v1.7.0/v1.7.0-linux.tar.gz | tar zx
 
 <b>Alternatively</b>, you could also finish above things for your linux system as:
 
