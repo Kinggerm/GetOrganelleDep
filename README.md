@@ -2,6 +2,15 @@
 
 Binary files of [GetOrganelle v1.6.0+](https://github.com/Kinggerm/GetOrganelle) dependencies (SPAdes, Bowtie2, BLAST+).
 
+Current versions:
+
+* SPAdes	3.15.4
+
+* Bowtie2	2.3.5.1
+
+* Blast+	2.9.0
+
+
 ## Installation
 
 No other compiling required. Just download GetOrganelleDep to GetOrganelle without changing the directory tree. 
